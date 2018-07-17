@@ -1,3 +1,3 @@
 #!/bin/sh
-exec dockerd-entrypoint.sh 
+exec entrypoint.sh 
 # $@ ${DOCKER_OPTS}
