@@ -1,3 +1,3 @@
 #!/bin/sh
-exec entrypoint.sh 
+exec /bin/entrypoint.sh 
 # $@ ${DOCKER_OPTS}
