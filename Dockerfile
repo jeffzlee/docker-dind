@@ -1,4 +1,4 @@
 FROM docker:dind
-COPY entrypoint.sh /usr/local/bin/
+COPY entrypoint.sh /bin/
 ENTRYPOINT ["entrypoint.sh"]
 CMD []
